@@ -1,0 +1,6 @@
+-sname simple_chat@localhost
+
+-setcookie simple_chat_cookie
+
++K true
++A30

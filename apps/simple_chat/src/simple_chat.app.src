@@ -1,0 +1,19 @@
+{application, simple_chat,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {simple_chat_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    sasl,
+    inets,
+    crypto,
+    jsx
+   ]},
+  {env, [{web_config, #{host => "localhost"}}]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

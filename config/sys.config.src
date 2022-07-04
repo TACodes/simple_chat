@@ -1,0 +1,7 @@
+[
+  {simple_chat, [{web_config, #{host => "localhost"}}]},
+
+  {sasl, [{error_logger_mf_dir, "log/"},
+          {error_logger_mf_maxbytes, 20000},
+          {error_logger_mf_maxfiles, 5} ]}
+].

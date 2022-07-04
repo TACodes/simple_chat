@@ -1,0 +1,12 @@
+{application, simple_chat_frontend,
+ [{description, "Simple Chat frontend"},
+  {vsn, "1.0.0"},
+  {applications,
+   [kernel,
+    stdlib,
+    inets
+   ]},
+  {env,[]},
+  {modules, [web]},
+  {links, []}
+ ]}.
